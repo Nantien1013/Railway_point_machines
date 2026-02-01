@@ -1,0 +1,20 @@
+{
+  "model": "LSTM_packed",
+  "protocol": "A_shared_split",
+  "device": "cuda",
+  "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+  "python_version": "3.10.18",
+  "torch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "cudnn_version": 90100,
+  "num_parameters": 205187,
+  "epochs_ran": 43,
+  "total_train_seconds": 2107.64721387811,
+  "avg_epoch_seconds": 49.01502431543587,
+  "batch_size": 20,
+  "total_infer_seconds": 7.335923166945577,
+  "num_test_samples": 656,
+  "ms_per_sample": 11.18280970570972,
+  "samples_per_second": 89.42296491814753,
+  "notes": "Train/val/test are shared manifests (file_path). Inference timing is model-only forward pass on test_loader."
+}

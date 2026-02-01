@@ -1,0 +1,20 @@
+{
+  "model": "CNN1D_masked_pool",
+  "protocol": "A_shared_split",
+  "num_parameters": 134019,
+  "epochs_ran": 42,
+  "total_train_seconds": 1807.6630812101066,
+  "avg_epoch_seconds": 43.039568583481014,
+  "batch_size": 20,
+  "total_infer_seconds": 7.210902726277709,
+  "num_test_samples": 656,
+  "ms_per_sample": 10.992229765667238,
+  "samples_per_second": 90.97335311561321,
+  "python_version": "3.10.18",
+  "os": "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+  "torch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "cudnn_version": 90100,
+  "device": "cuda",
+  "gpu_name": "Tesla T4"
+}

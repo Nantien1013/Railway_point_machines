@@ -1,0 +1,18 @@
+{
+  "model": "LSTM_packed_loaded",
+  "protocol": "A_shared_split",
+  "device": "cuda",
+  "torch_version": "2.5.1+cu121",
+  "cuda_version": "12.1",
+  "cudnn_version": 90100,
+  "num_parameters": 205187,
+  "epochs_ran": null,
+  "total_train_seconds": null,
+  "avg_epoch_seconds": null,
+  "batch_size": 20,
+  "total_infer_seconds": 7.523228954523802,
+  "num_test_samples": 656,
+  "ms_per_sample": 11.46833682092043,
+  "samples_per_second": 87.19660188003981,
+  "note": "Timing measured from loaded model only; training time not recorded in this notebook."
+}
